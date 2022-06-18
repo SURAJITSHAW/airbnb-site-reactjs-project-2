@@ -20,7 +20,7 @@ const MainContent = () => {
 
   return (
     <div className="container px-2">
-      <div className="row g-2 justify-content-between">
+      <div className="row g-1 justify-content-between m-0 p-0">
         {cards}
         {/* <Card
             name="Surajit Shaw"

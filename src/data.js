@@ -1,7 +1,7 @@
 export const dataArray = [
   {
     name: "Surajit Shaw",
-    title: "Web Development best practices with Surajit Shaw 👨‍💻",
+    title: "Web Development best practices with 👨‍💻",
     location: "Kolkata",
     price: 200,
     coverImg: "husky.jpg",

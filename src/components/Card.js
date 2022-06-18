@@ -1,9 +1,9 @@
 
 const Card = (props) => {
     return ( 
-        <div className="mx-auto my-3" style={{width: "450px"}}>
+        <div className="mx-auto my-3" style={{width: "400px"}}>
       <div className="bg-dark text-white card">
-        <img src={`../assets/${props.coverImg}`} className="card-img-top" alt="..." />
+        <img src={`../assets/${props.coverImg}`} className="card-img-top img-fluid" style={{height: "auto"}} alt="..." />
         <div className="card-body ">
           <h3 className="card-title">{props.name}</h3>
           <h6 className="card-subtitle text-secondary my-1"><small><i className="bi bi-star">* </i>{props.stats.rating} ({props.stats.reviewCount}) 🔹 {props.location}</small></h6>
