@@ -10,7 +10,7 @@ const MainContent = () => {
             title= "Web Development best practices with Surajit Shaw"
             location="Kolkata"
             price={200}
-            coverImg="husky.png"
+            coverImg="husky.jpg"
             stats= {
               {
                 rating: "5.0",
