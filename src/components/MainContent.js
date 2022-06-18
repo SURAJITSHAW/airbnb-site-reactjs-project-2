@@ -4,8 +4,9 @@ import { dataArray } from "../data";
 const MainContent = () => {
   const cards = dataArray.map((data) => {
     return (
-      <div className="col-lg-3">
+      <div className="col-lg-3 mx-2">
         <Card
+          key={data.id}
           name={data.name}
           title={data.title}
           location={data.location}

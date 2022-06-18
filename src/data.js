@@ -1,5 +1,6 @@
 export const dataArray = [
   {
+    id: 1,
     name: "Surajit Shaw",
     title: "Web Development best practices with 👨‍💻",
     location: "Kolkata",
@@ -13,6 +14,7 @@ export const dataArray = [
     openSpots: 12,
   },
   {
+    id: 2,
     name: "Gordan Ramsy",
     title: "Learn how to cook western foods perfectly 😋",
     location: "Online",
@@ -26,6 +28,7 @@ export const dataArray = [
     openSpots: 4,
   },
   {
+    id: 3,
     name: "Mr. Nakamoto",
     title: "Learn about blockchain with Mr. Nakamot ⛓",
     location: "MIT",
